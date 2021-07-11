@@ -248,3 +248,66 @@ main h1 {
 }.rt-exampleTre:hover {
     transform: rotateY(500deg);
 }
+
+.container-origin{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.origin-itemsContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background: #dcdddd;
+    border-radius: 5px;
+    border-top: 1px solid black;
+}
+
+.origin-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.og-exampleOne {
+    background-color: #f0ce60;
+    transform-origin: right top;
+}
+
+.og-exampleTwo {
+    background-color: #4158D0;
+    transform-origin: right bottom;
+}
+
+.og-exampleTre {
+    background-color: #cb6fe2;
+    transform-origin: left top;
+}
+
+.og-exampleFour {
+    background-color: #6fe2c5;
+    transform-origin: left bottom;
+}
+
+.og-exampleOne:hover {
+    transform: rotate(500deg);
+}
+
+.og-exampleTwo:hover {
+    transform: rotate(500deg);
+
+}
+
+.og-exampleTre:hover {
+    transform: rotate(500deg);
+}
+
+.og-exampleFour:hover {
+    transform: rotate(500deg);
+}
