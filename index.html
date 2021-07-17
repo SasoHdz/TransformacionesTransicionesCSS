@@ -17,7 +17,7 @@
             Este es un pequeño repositorio para plasmar pequeños ejercicios y ejemplos de los temas
             vistos en este curso impartido por la gran <a href="https://twitter.com/teffcode">@teffCode</a>
         </p>
-        <section class="modulo1">
+        <section class="modulo">
             <h2>Tranformaciones en 2D y 3D</h2>
             <p>Estes es un pequeño resumen sobre la clase 5 (transform traslate) y clase 6 (transform rotate, scale, skew y matrix) </p>
             <p>
@@ -25,9 +25,9 @@
                 de una forma excelente y aqui te dejo unos pequeños ejemplos de estas tranformaciones: <br/>
                 <strong>(coloca el puntero sobre las figuras para ver las tranformaciones)</strong>
             </p>
-            <div class="container-traslate">
+            <div class="container">
                 <h3 class="traslate-title">Traslate</h3>
-                <div class="traslate-itemsContainer">
+                <div class="items-Container">
                     <div class="traslate-item">
                         <span>transform: translate(-20px , 20px)</span>
                         <div class="traslate-shadow">
@@ -48,9 +48,9 @@
                     </div>
                 </div>
             </div>
-            <div class="container-scale">
+            <div class="container">
                 <h3 class="scale-title">Scale</h3>
-                <div class="scale-itemsContainer">
+                <div class="items-Container">
                     <div class="scale-item">
                         <span>transform: scale(1.4);</span>
                         <div class="scale-circle sca-exampleOne"></div>
@@ -65,9 +65,9 @@
                     </div>
                 </div>
             </div>
-            <div class="container-skew">
+            <div class="container">
                 <h3 class="skew-title">Skew</h3>
-                <div class="skew-itemsContainer">
+                <div class="items-Container">
                     <div class="skew-item">
                     <span>transform: skew(40deg)</span>
                     <div class="cuadro skew-exampleOne"></div>
@@ -82,9 +82,9 @@
                 </div>
                 </div>
             </div>
-            <div class="container-rotate">
+            <div class="container">
                 <h3 class="rotate-title">Rotate</h3>
-                 <div class="rotate-itemsContainer">
+                 <div class="items-Container">
                      <div class="rotate-item">
                          <span>transform: rotate(500deg)</span>
                          <div class="rotate rt-exampleOne"></div>
@@ -99,9 +99,9 @@
                     </div>
                  </div> 
             </div>
-            <div class="container-origin">
+            <div class="container">
                 <h3 class="origin-title">Origin</h3>
-                <div class="origin-itemsContainer">
+                <div class="items-Container">
                     <div class="origin-item">
                         <span> transform-origin: right top</span>
                         <div class="rotate og-exampleOne"></div>
@@ -120,6 +120,129 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="modulo">
+            <h2>Transition property y duration</h2>
+            <p>
+                En este modulo comenzamos a hacer un poco mas interesantes las animaciones, agregando algunas propiedades
+                a nuestras transformaciones. <strong>(Recuerda colocar el puntero sobre las figuras)</strong> 
+            </p>
+            <div class="container">
+                <h3 class="traslate-title">Traslate</h3>
+                <div class="items-Container">
+                    <div class="traslate-item">
+                        <span>transform: translate(-20px , 20px)</span>
+                        <span>transition: transform 1s</span>
+                        <div class="traslate-shadow">
+                            <div class="traslate-circle tras-exampleOne propety1"></div>
+                        </div>
+                    </div>
+                    <div class="traslate-item">
+                        <span>transform: translateX(50px);</span>
+                        <span>transition: transform 1.5s</span>
+                        <div class="traslate-shadow">
+                            <div class="traslate-circle tras-exampleTwo propety2"></div>
+                        </div>
+                    </div>
+                    <div class="traslate-item">
+                        <span>transform: translateY(50px);</span>
+                        <span>transition: transform 2s</span>
+                        <div class="traslate-shadow">
+                            <div class="traslate-circle tras-exampleTre propety3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="scale-title">Scale</h3>
+                <div class="items-Container">
+                    <div class="scale-item">
+                        <span>transform: scale(1.4);</span>
+                        <span>transition: transform 1s</span>
+                        <div class="scale-circle sca-exampleOne propety1"></div>
+                    </div>
+                    <div class="scale-item">
+                        <span>transform: scaleX(1.4);</span>
+                        <span>transition: transform 1.5s</span>
+                        <div class="scale-circle sca-exampleTwo propety2"></div>
+                    </div>
+                    <div class="scale-item">
+                        <span>transform: scaleY(1.4);</span>
+                        <span>transition: transform 2s</span>
+                        <div class="scale-circle sca-exampleTre propety3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="skew-title">Skew</h3>
+                <div class="items-Container">
+                    <div class="skew-item">
+                    <span>transform: skew(40deg)</span>
+                    <span>transition: transform 1s</span>
+                    <div class="cuadro skew-exampleOne propety1"></div>
+                </div>
+                <div class="skew-item">
+                    <span>transform: skewX(40deg)</span>
+                    <span>transition: transform 1.5s</span>
+                    <div class="cuadro skew-exampleTwo propety2"></div>
+                </div>
+                <div class="skew-item">
+                    <span>transform: skewY(40deg)</span>
+                    <span>transition: transform 2s</span>
+                    <div class="cuadro skew-exampleTre propety3"></div>
+                </div>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="rotate-title">Rotate</h3>
+                 <div class="items-Container">
+                     <div class="rotate-item">
+                         <span>transform: rotate(500deg)</span>
+                         <span>transition: transform 1s</span>
+                         <div class="rotate rt-exampleOne propety1"></div>
+                     </div>
+                     <div class="rotate-item">
+                        <span>transform: rotateX(500deg)</span>
+                        <span>transition: transform 1.5s</span>
+                        <div class="rotate rt-exampleTwo propety2"></div>
+                    </div>
+                    <div class="rotate-item">
+                        <span>transform: rotateY(500deg)</span>
+                        <span>transition: transform 2s</span>
+                        <div class="rotate rt-exampleTre propety3"></div>
+                    </div>
+                 </div> 
+            </div>
+            <div class="container">
+                <h3 class="origin-title">Origin</h3>
+                <div class="items-Container">
+                    <div class="origin-item">
+                        <span> transform-origin: right top</span>
+                        <span>transition: transform 1s</span>
+                        <div class="rotate og-exampleOne propety1"></div>
+                    </div>
+                    <div class="origin-item">
+                        <span>transform-origin: right bottom</span>
+                        <span>transition: transform 1.5s</span>
+                        <div class="rotate og-exampleTwo propety2"></div>
+                    </div>
+                    <div class="origin-item">
+                        <span>transform-origin: left top</span>
+                        <span>transition: transform 2s</span>
+                        <div class="rotate og-exampleTre propety3"></div>
+                    </div>
+                    <div class="origin-item">
+                        <span>transform-origin: left bottom</span>
+                        <span>transition: transform 2.5s</span>
+                        <div class="rotate og-exampleFour propety4"></div>
+                    </div>
+                </div>
+            </div>
+            <p>Es muy interesante los resultados obtenidos con solo agregar una propiedad más, a mí me gustaron mucho 
+                y me emociona seguir con estos cursos 😁💚. </p>
+            <p>En esta clase aprendimos a usar la propiedad transition para que
+                nuestras transformaciones se vean cada vez más cheveres 😎.
+            </p>
         </section>
     </main>
 </body>
